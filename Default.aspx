@@ -81,23 +81,19 @@
                                             <ControlStyle Width="20px" />
                                             <ItemStyle Width="20px" />
                                         </asp:TemplateField>
-                                        <asp:BoundField DataField="" HeaderText="Nombre">
+                                        <asp:BoundField DataField="Nombre" HeaderText="Nombre">
                                             <ControlStyle Width="40px" />
                                             <ItemStyle Width="40px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="" HeaderText="Apellido Paterno">
+                                        <asp:BoundField DataField="Apellido" HeaderText="Apellido">
                                             <ControlStyle Width="40px" />
                                             <ItemStyle Width="40px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="" HeaderText="Apellido Materno">
+                                        <asp:BoundField DataField="Curp" HeaderText="CURP">
                                             <ControlStyle Width="40px" />
                                             <ItemStyle Width="40px" />
                                         </asp:BoundField>
-                                        <asp:BoundField DataField="" HeaderText="CURP">
-                                            <ControlStyle Width="40px" />
-                                            <ItemStyle Width="40px" />
-                                        </asp:BoundField>
-                                        <asp:BoundField DataField="" HeaderText="Fecha de nacimiento" DataFormatString="{0:dd/MM/yyyy HH:mm}">
+                                        <asp:BoundField DataField="Fecha_Nacimiento" HeaderText="Fecha de nacimiento">
                                             <ControlStyle Width="40px" />
                                             <ItemStyle Width="40px" />
                                         </asp:BoundField>
