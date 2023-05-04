@@ -55,6 +55,23 @@
             <div class="row col-6">
             </div>
         </div>
+         <div class="row">
+            <div class="row col-3">
+                <label for="txtCURP">CURP</label>
+                <input id="txtCURP" type="text" />
+            </div>
+            <div class="row col-1">
+            </div>
+            <div class="row col-3">
+                <label for="txtAPaterno">Fecha de Nacimiento</label>
+                <input id="txtFechaNac" type="text" />
+            </div>
+            <div class="row col-3">
+                
+            </div>
+        </div>
+
+
     </main>
 
 </asp:Content>
