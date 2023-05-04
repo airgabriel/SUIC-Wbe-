@@ -13,5 +13,15 @@ namespace SUIC_Wbe_
         {
 
         }
+
+        protected void btnBusqueda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnLimpiar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
