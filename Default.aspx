@@ -10,17 +10,21 @@
             <h3 id="TitleBusqueda">Búsqueda de Información</h3>
         </section>
 
-        <div class="form-group row">
-            <div class="form-group col-sm-4" >
+     <main>
+        <section class="row" aria-labelledby="aspnetTitle">
+            <h3 id="aspnetTitle">Búsqueda de Información</h3>
+        </section>
+
+        <div class="row">
+            <div class="row col-3">
                 <label for="txtNombre">Nombre</label>
-                <input id="txtNombre" type="text"  class="form-control"/>
+                <input id="txtNombre" type="text" />
             </div>
-           
+            <div class="row col-1">
+            </div>
             <div class="row col-3">
                 <label for="txtAPaterno">Apellido Paterno</label>
                 <input id="txtAPaterno" type="text" />
-            </div>
-            <div class="row col-1">
             </div>
             <div class="row col-3">
                 <label for="txtAMaterno">APellido Materno</label>
@@ -31,10 +35,16 @@
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
+            <h3 id="TitleResultado">Resultados de la Consulta</h3>
+        </section>
 
+        <div class="row">
+            <div class="row col-6">
+            </div>
+            <div class="row col-6">
             </div>
         </div>
-        <div class="row">
+         <div class="row">
             <div class="row col-3">
                 <label for="txtCURP">CURP</label>
                 <input id="txtCURP" type="text" />
@@ -63,5 +73,6 @@
 
 
     </main>
+
 
 </asp:Content>
