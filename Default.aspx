@@ -39,7 +39,7 @@
             </div>
 
             <div class="form-group col-sm-2">
-                <asp:Button ID="btnBusqueda" runat="server" Text="Buscar" CssClass="btn-primary  btn-rounded btn-md"/>
+                <asp:Button ID="btnBusqueda" runat="server" Text="Buscar" CssClass="btn-primary  btn-rounded btn-md" />
             </div>
             <div class="form-group col-sm-2">
                 <asp:Button ID="btnLimpiar" runat="server" Text="Limpiar" CssClass="btn-primary btn-rounded btn-md" />
