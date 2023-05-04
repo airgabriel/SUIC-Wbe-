@@ -17,8 +17,6 @@ namespace SUIC_Wbe_
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            gdvResultados.DataSource = ViewState["ListaResultados"];
-            gdvResultados.DataBind();
         }
 
         protected void btnBusqueda_Click(object sender, EventArgs e)
@@ -42,8 +40,8 @@ namespace SUIC_Wbe_
 
             repubelist = JsonConvert.DeserializeObject<List<RepuveModel>>(data);
 
-            ViewState["ListaResultados"] = repubelist;
-
+            gdvResultados.DataSource = repubelist;
+            gdvResultados.DataBind();
 
 
         }
